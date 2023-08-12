@@ -4,15 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import TransparentNavbar from "./componets/TransparentNavbar";
 import Navbar from "./Navbar";
 
-import FacilityPhotosPage from "./componets/FacilityPhotosPage";
-// import AboutUs from "./componets/AboutUs";
+//import FacilityPhotosPage from "./componets/FacilityPhotosPage";
+import AboutUs from "./componets/AboutUs";
 
-// import LoginPage from "./componets/LoginPage";
-// import SignUpPage from "./componets/SignUpPage";
+import LoginPage from "./componets/LoginPage";
+import SignUpPage from "./componets/SignUpPage";
 // import PaymentHeader from "./componets/PaymentHeader";
 // import PaymentForm from "./componets/PaymentForm";
 
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -24,16 +24,15 @@ function App() {
         {/* <LoginPage /> */}
         {/* <SignUpPage /> */}
         {/* <PaymentPage /> */}
-        {/* 
+
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<LoginPage />}>
-              <Route index element={<SignUpPage />} />
-              <Route index element={<AboutUs />} />
-            </Route>
+            <Route index element={<LoginPage />} />
+            <Route path="aboutUs" element={<AboutUs />}></Route>
+            <Route path="signUpPage" element={<SignUpPage />}></Route>
           </Routes>
-        </BrowserRouter> */}
-        <FacilityPhotosPage />
+        </BrowserRouter>
+        {/* <FacilityPhotosPage /> */}
       </div>
     </>
   );
