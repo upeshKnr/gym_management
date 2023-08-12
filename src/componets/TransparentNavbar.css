@@ -1,0 +1,17 @@
+/* TransparentNavbar.css */
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

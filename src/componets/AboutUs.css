@@ -1,0 +1,44 @@
+.about-us {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  color: antiquewhite;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.about-us::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("C:\Users\upesh\Downloads\emptyGym.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  filter: blur(3px); /* Adjust blur intensity as needed */
+  z-index: -1;
+}
+
+header {
+  text-align: justify;
+  margin-bottom: 30px;
+
+  font-size: large;
+}
+.footer {
+  color: whitesmoke;
+  text-align: end;
+  text-decoration: underline;
+}
