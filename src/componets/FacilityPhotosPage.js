@@ -1,6 +1,6 @@
 import React from "react";
 import FacilityCard from "./FacilityCard";
-import gymImages from "../assets/gym_images"; // Import facility photos
+import gymImages from "../gymImages"; // Import facility photos
 
 const FacilityPhotosPage = () => {
   return (
